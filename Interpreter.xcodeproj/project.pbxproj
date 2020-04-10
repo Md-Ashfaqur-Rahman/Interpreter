@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E0E0C88968CB36E07DC99B78 /* Pods_Interpreter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939BE2F0339AF79EE640D521 /* Pods_Interpreter.framework */; };
+		FCA6FD782440E69300A5EA17 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD6B2440E67600A5EA17 /* ProfileViewController.swift */; };
+		FCA6FD792440E69300A5EA17 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD6C2440E67B00A5EA17 /* EditProfileViewController.swift */; };
+		FCA6FD7A2440E69300A5EA17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA6FD6D2440E67F00A5EA17 /* Main.storyboard */; };
+		FCA6FD7B2440E69300A5EA17 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD6E2440E68100A5EA17 /* HomeTableViewCell.swift */; };
+		FCA6FD7C2440E69300A5EA17 /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA6FD6F2440E68200A5EA17 /* Landing.storyboard */; };
+		FCA6FD7D2440E69300A5EA17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD702440E68300A5EA17 /* ViewController.swift */; };
+		FCA6FD7E2440E69300A5EA17 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD712440E68A00A5EA17 /* ChatViewController.swift */; };
+		FCA6FD7F2440E69300A5EA17 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD722440E68C00A5EA17 /* SearchViewController.swift */; };
+		FCA6FD802440E69300A5EA17 /* GuardianSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD732440E68E00A5EA17 /* GuardianSignUpViewController.swift */; };
+		FCA6FD812440E69400A5EA17 /* DetailsTutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD742440E68F00A5EA17 /* DetailsTutorViewController.swift */; };
+		FCA6FD822440E69400A5EA17 /* SignUpTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD752440E69000A5EA17 /* SignUpTypeViewController.swift */; };
+		FCA6FD832440E69400A5EA17 /* TutorSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD762440E69200A5EA17 /* TutorSignUpViewController.swift */; };
+		FCA6FD842440E69400A5EA17 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6FD772440E69300A5EA17 /* HomeViewController.swift */; };
 		FCE45C6724380E380077280A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCE45C6624380E380077280A /* GoogleService-Info.plist */; };
-		FCE45C75243814D00077280A /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C68243814C60077280A /* HomeTableViewCell.swift */; };
-		FCE45C76243814D00077280A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C69243814CA0077280A /* ProfileViewController.swift */; };
-		FCE45C77243814D00077280A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C6A243814CA0077280A /* ChatViewController.swift */; };
-		FCE45C78243814D00077280A /* GuardianSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C6B243814CB0077280A /* GuardianSignUpViewController.swift */; };
-		FCE45C79243814D00077280A /* SignUpTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C6C243814CC0077280A /* SignUpTypeViewController.swift */; };
-		FCE45C7A243814D00077280A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C6D243814CC0077280A /* SearchViewController.swift */; };
-		FCE45C7B243814D00077280A /* DetailsTutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C6E243814CD0077280A /* DetailsTutorViewController.swift */; };
-		FCE45C7C243814D00077280A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C6F243814CE0077280A /* EditProfileViewController.swift */; };
-		FCE45C7D243814D00077280A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C70243814CE0077280A /* ViewController.swift */; };
-		FCE45C7E243814D00077280A /* TutorSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C71243814CF0077280A /* TutorSignUpViewController.swift */; };
-		FCE45C7F243814D00077280A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE45C72243814CF0077280A /* Main.storyboard */; };
-		FCE45C80243814D00077280A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C73243814D00077280A /* HomeViewController.swift */; };
-		FCE45C81243814D00077280A /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE45C74243814D00077280A /* Landing.storyboard */; };
 		FCE45C84243814DA0077280A /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45C83243814DA0077280A /* Tutor.swift */; };
 		FCFB25DB2431FB0100872E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB25DA2431FB0100872E26 /* AppDelegate.swift */; };
 		FCFB25DD2431FB0100872E26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB25DC2431FB0100872E26 /* SceneDelegate.swift */; };
@@ -33,20 +33,20 @@
 		285EC6445AD468E8BAB6A086 /* Pods-Interpreter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interpreter.release.xcconfig"; path = "Target Support Files/Pods-Interpreter/Pods-Interpreter.release.xcconfig"; sourceTree = "<group>"; };
 		3299E7021B9BF144676CD027 /* Pods-Interpreter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interpreter.debug.xcconfig"; path = "Target Support Files/Pods-Interpreter/Pods-Interpreter.debug.xcconfig"; sourceTree = "<group>"; };
 		939BE2F0339AF79EE640D521 /* Pods_Interpreter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interpreter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA6FD6B2440E67600A5EA17 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FCA6FD6C2440E67B00A5EA17 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		FCA6FD6D2440E67F00A5EA17 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FCA6FD6E2440E68100A5EA17 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		FCA6FD6F2440E68200A5EA17 /* Landing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		FCA6FD702440E68300A5EA17 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA6FD712440E68A00A5EA17 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FCA6FD722440E68C00A5EA17 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FCA6FD732440E68E00A5EA17 /* GuardianSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardianSignUpViewController.swift; sourceTree = "<group>"; };
+		FCA6FD742440E68F00A5EA17 /* DetailsTutorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTutorViewController.swift; sourceTree = "<group>"; };
+		FCA6FD752440E69000A5EA17 /* SignUpTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTypeViewController.swift; sourceTree = "<group>"; };
+		FCA6FD762440E69200A5EA17 /* TutorSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorSignUpViewController.swift; sourceTree = "<group>"; };
+		FCA6FD772440E69300A5EA17 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FCE45C6624380E380077280A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FCE45C68243814C60077280A /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
-		FCE45C69243814CA0077280A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		FCE45C6A243814CA0077280A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		FCE45C6B243814CB0077280A /* GuardianSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardianSignUpViewController.swift; sourceTree = "<group>"; };
-		FCE45C6C243814CC0077280A /* SignUpTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpTypeViewController.swift; sourceTree = "<group>"; };
-		FCE45C6D243814CC0077280A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		FCE45C6E243814CD0077280A /* DetailsTutorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTutorViewController.swift; sourceTree = "<group>"; };
-		FCE45C6F243814CE0077280A /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
-		FCE45C70243814CE0077280A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCE45C71243814CF0077280A /* TutorSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorSignUpViewController.swift; sourceTree = "<group>"; };
-		FCE45C72243814CF0077280A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		FCE45C73243814D00077280A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		FCE45C74243814D00077280A /* Landing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
 		FCE45C83243814DA0077280A /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		FCFB25D72431FB0100872E26 /* Interpreter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interpreter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFB25DA2431FB0100872E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,19 +117,19 @@
 				FCE45C82243814DA0077280A /* Model */,
 				FCFB25DA2431FB0100872E26 /* AppDelegate.swift */,
 				FCFB25DC2431FB0100872E26 /* SceneDelegate.swift */,
-				FCE45C6A243814CA0077280A /* ChatViewController.swift */,
-				FCE45C6E243814CD0077280A /* DetailsTutorViewController.swift */,
-				FCE45C6F243814CE0077280A /* EditProfileViewController.swift */,
-				FCE45C6B243814CB0077280A /* GuardianSignUpViewController.swift */,
-				FCE45C68243814C60077280A /* HomeTableViewCell.swift */,
-				FCE45C73243814D00077280A /* HomeViewController.swift */,
-				FCE45C74243814D00077280A /* Landing.storyboard */,
-				FCE45C72243814CF0077280A /* Main.storyboard */,
-				FCE45C69243814CA0077280A /* ProfileViewController.swift */,
-				FCE45C6D243814CC0077280A /* SearchViewController.swift */,
-				FCE45C6C243814CC0077280A /* SignUpTypeViewController.swift */,
-				FCE45C71243814CF0077280A /* TutorSignUpViewController.swift */,
-				FCE45C70243814CE0077280A /* ViewController.swift */,
+				FCA6FD712440E68A00A5EA17 /* ChatViewController.swift */,
+				FCA6FD742440E68F00A5EA17 /* DetailsTutorViewController.swift */,
+				FCA6FD6C2440E67B00A5EA17 /* EditProfileViewController.swift */,
+				FCA6FD732440E68E00A5EA17 /* GuardianSignUpViewController.swift */,
+				FCA6FD6E2440E68100A5EA17 /* HomeTableViewCell.swift */,
+				FCA6FD772440E69300A5EA17 /* HomeViewController.swift */,
+				FCA6FD6F2440E68200A5EA17 /* Landing.storyboard */,
+				FCA6FD6D2440E67F00A5EA17 /* Main.storyboard */,
+				FCA6FD6B2440E67600A5EA17 /* ProfileViewController.swift */,
+				FCA6FD722440E68C00A5EA17 /* SearchViewController.swift */,
+				FCA6FD752440E69000A5EA17 /* SignUpTypeViewController.swift */,
+				FCA6FD762440E69200A5EA17 /* TutorSignUpViewController.swift */,
+				FCA6FD702440E68300A5EA17 /* ViewController.swift */,
 				FCFB25E32431FB1000872E26 /* Assets.xcassets */,
 				FCFB25E52431FB1000872E26 /* LaunchScreen.storyboard */,
 				FCFB25E82431FB1000872E26 /* Info.plist */,
@@ -199,10 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCFB25E72431FB1000872E26 /* LaunchScreen.storyboard in Resources */,
-				FCE45C81243814D00077280A /* Landing.storyboard in Resources */,
+				FCA6FD7C2440E69300A5EA17 /* Landing.storyboard in Resources */,
 				FCFB25E42431FB1000872E26 /* Assets.xcassets in Resources */,
 				FCE45C6724380E380077280A /* GoogleService-Info.plist in Resources */,
-				FCE45C7F243814D00077280A /* Main.storyboard in Resources */,
+				FCA6FD7A2440E69300A5EA17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,20 +255,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE45C75243814D00077280A /* HomeTableViewCell.swift in Sources */,
-				FCE45C7E243814D00077280A /* TutorSignUpViewController.swift in Sources */,
-				FCE45C78243814D00077280A /* GuardianSignUpViewController.swift in Sources */,
-				FCE45C7B243814D00077280A /* DetailsTutorViewController.swift in Sources */,
-				FCE45C7A243814D00077280A /* SearchViewController.swift in Sources */,
-				FCE45C7D243814D00077280A /* ViewController.swift in Sources */,
+				FCA6FD822440E69400A5EA17 /* SignUpTypeViewController.swift in Sources */,
+				FCA6FD7B2440E69300A5EA17 /* HomeTableViewCell.swift in Sources */,
 				FCFB25DB2431FB0100872E26 /* AppDelegate.swift in Sources */,
-				FCE45C76243814D00077280A /* ProfileViewController.swift in Sources */,
+				FCA6FD7E2440E69300A5EA17 /* ChatViewController.swift in Sources */,
+				FCA6FD7F2440E69300A5EA17 /* SearchViewController.swift in Sources */,
+				FCA6FD842440E69400A5EA17 /* HomeViewController.swift in Sources */,
 				FCE45C84243814DA0077280A /* Tutor.swift in Sources */,
-				FCE45C77243814D00077280A /* ChatViewController.swift in Sources */,
-				FCE45C79243814D00077280A /* SignUpTypeViewController.swift in Sources */,
-				FCE45C7C243814D00077280A /* EditProfileViewController.swift in Sources */,
-				FCE45C80243814D00077280A /* HomeViewController.swift in Sources */,
+				FCA6FD832440E69400A5EA17 /* TutorSignUpViewController.swift in Sources */,
+				FCA6FD812440E69400A5EA17 /* DetailsTutorViewController.swift in Sources */,
+				FCA6FD782440E69300A5EA17 /* ProfileViewController.swift in Sources */,
+				FCA6FD7D2440E69300A5EA17 /* ViewController.swift in Sources */,
+				FCA6FD792440E69300A5EA17 /* EditProfileViewController.swift in Sources */,
 				FCFB25DD2431FB0100872E26 /* SceneDelegate.swift in Sources */,
+				FCA6FD802440E69300A5EA17 /* GuardianSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

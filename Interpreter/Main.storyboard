@@ -61,8 +61,8 @@
                                     <segue destination="xtM-3d-HFJ" kind="presentation" modalPresentationStyle="fullScreen" id="gJ5-H0-KJa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interpeter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K67-WF-RQd">
-                                <rect key="frame" x="86.5" y="178" width="241" height="47"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interpreter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K67-WF-RQd">
+                                <rect key="frame" x="74.5" y="178" width="265" height="47"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="40"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -148,7 +148,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="hYm-4h-aK9"/>
                                                 </constraints>
-                                                <state key="normal" title="I am Interpeter">
+                                                <state key="normal" title="I am Interpreter">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
@@ -272,7 +272,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Experience e.g. 2Years" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMw-es-jBg">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Experience e.g. 5 Years" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMw-es-jBg">
                                         <rect key="frame" x="0.0" y="108" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="fZw-0s-DZd"/>
@@ -280,7 +280,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Splished In Language e.g. Japanise" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dsd-Uz-GrS">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Known Language e.g. Bangla, Japanese, Chinese etc..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dsd-Uz-GrS">
                                         <rect key="frame" x="0.0" y="162" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="aTZ-QS-Rxp"/>
@@ -288,7 +288,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8l6-5A-uC8">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prefered Area To Work e.g. Dhanmondi, Gulshan, Uttora" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8l6-5A-uC8">
                                         <rect key="frame" x="0.0" y="216" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="l6a-yV-gCe"/>
@@ -296,7 +296,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prefer Working Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VX-jQ-vbY">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prefered Time To Work e.g. 04-06 " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VX-jQ-vbY">
                                         <rect key="frame" x="0.0" y="270" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="lgD-pr-x7l"/>
@@ -386,7 +386,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2tI-SP-f4v">
                                 <rect key="frame" x="20" y="174" width="374" height="368"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="From to Date e.g 01.01 - 10.01" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HDh-qk-Wfh">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date Of Period e.g. 01.01 - 20.01" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HDh-qk-Wfh">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="u7d-AU-rQE"/>
@@ -394,7 +394,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Working Area of Bangladesh" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3d2-fH-Hk0">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Home Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3d2-fH-Hk0">
                                         <rect key="frame" x="0.0" y="54" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="cbG-pg-cX1"/>
@@ -402,7 +402,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How logn time Assistant Needed for e.g. 1 Month" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vn8-NF-5q7">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Working Period e.g. 2 month" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vn8-NF-5q7">
                                         <rect key="frame" x="0.0" y="108" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="mte-CW-azz"/>
@@ -410,7 +410,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="which language person needed e.g Japanese" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c3k-av-3XA">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mother Language e.g. Japanese" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c3k-av-3XA">
                                         <rect key="frame" x="0.0" y="162" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="sHg-qp-sF8"/>
@@ -418,7 +418,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Come From e.g. Japan" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fiH-n8-ahO">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Area Of work e.g. Dhanmondi, Gulshan, Uttora" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fiH-n8-ahO">
                                         <rect key="frame" x="0.0" y="216" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="9Xg-Wo-zzp"/>
@@ -426,7 +426,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Assistant needed in time e.g. 10-05 PM" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="csp-u8-hnE">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Working Time Schdule e.g. 04-06" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="csp-u8-hnE">
                                         <rect key="frame" x="0.0" y="270" width="374" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="84M-pd-mc6"/>
@@ -493,7 +493,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gLX-Kj-dBR"/>
+        <segue reference="UBN-UF-FDu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="person.circle" catalog="system" width="128" height="121"/>
